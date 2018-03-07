@@ -1,0 +1,24 @@
+header,
+main {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: auto;
+    justify-content: space-around;
+}
+header {
+    margin: 25px auto;
+}
+
+input[type="search"] {
+    width: 45%;
+    padding: 12px 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 1rem;
+}
+
+figcaption {
+    display: none;
+}
