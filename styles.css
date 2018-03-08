@@ -1,8 +1,8 @@
 header,
-main {
+.gallery {
     display: flex;
     flex-wrap: wrap;
-    width: 80%;
+    width: 70%;
     margin: auto;
     justify-content: space-around;
 }
@@ -11,14 +11,22 @@ header {
 }
 
 input[type="search"] {
-    width: 45%;
+    -moz-appearance:none;
+    -webkit-appearance:none;
+    width: 75%;
     padding: 12px 20px;
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
-    font-size: 1rem;
+    font-size: 16px;
 }
 
-figcaption {
-    display: none;
+.gallery a {
+    margin-bottom: 35px;
+}
+
+@media (min-width: 768px) {
+    input[type='search'] {
+        width: 45%;
+    }
 }
